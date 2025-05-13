@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'EB Garamond', sans-serif;
 }
 
 body{
@@ -151,6 +154,21 @@ header #logo{
 
 #inicio-btn:hover {
     background-color: #1e7e34;
+}
+
+/****************** LOCALIZA ************************/
+
+
+#mapaid {
+    width: 1000px;
+    height: 600px;
+    border-radius: 50%;
+    margin-left: 200px;
+}
+
+#localizacao {
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 
